@@ -13,5 +13,9 @@ for scheme in $COLORSCHEMES ; do
     scrot -u "micro-${scheme}.png"
     sleep 2
     kill $RXVT_PID
+
+    echo "${scheme}:"
+    echo "![${scheme}](micro-${scheme}.png)"
+    echo
 done
 
