@@ -15,7 +15,7 @@ for scheme in $COLORSCHEMES ; do
     kill $RXVT_PID
 
     echo "${scheme}:"
-    echo "![${scheme}](micro-${scheme}.png)"
+    echo "![${scheme}](pictures/micro-${scheme}.png)"
     echo
 done
 
